@@ -1,0 +1,28 @@
+{
+  "name": "rps-server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "serve": "node index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@teachablemachine/image": "^0.8.4",
+    "@tensorflow/tfjs": "^3.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nano": "^9.0.3",
+    "socket.io": "^4.0.1",
+    "vuetify": "^2.4.0"
+  },
+  "devDependencies": {
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.1",
+    "vuetify-loader": "^1.7.0"
+  },
+  "license": "ISC"
+}
